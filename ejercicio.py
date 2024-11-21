@@ -3,6 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 from io import StringIO
+import numpy as np
 
 ## ATENCION: Debe colocar la direccion en la que ha sido publicada la aplicacion en la siguiente linea\
 # url = 'https://tp8-555555.streamlit.app/'
@@ -16,12 +17,6 @@ def mostrar_informacion_alumno():
         st.markdown('**Comisión:** C2')
 
 mostrar_informacion_alumno()
-
-import streamlit as st
-import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns
-import numpy as np
 
 # Título de la aplicación
 st.subheader("Por favor, sube un archivo CSV desde la barra lateral izquierda")
